@@ -11,9 +11,11 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/tiers" do
+    Tier.all.to_json
   end
 
   get "/cards" do
+    Card.all.to_json
   end
 
 end
