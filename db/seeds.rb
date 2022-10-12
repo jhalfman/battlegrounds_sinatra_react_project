@@ -36,65 +36,65 @@ puts "✅ Done seeding Tribes!"
 puts "🌱 Seeding cards..."
 
 Card.create(
-    name: "Card 1"
-    image_url: nil
-    tier_id: 1
+    name: "Card 1",
+    image_url: nil,
+    tier_id: 1,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 2"
-    image_url: nil
-    tier_id: 2
+    name: "Card 2",
+    image_url: nil,
+    tier_id: 2,
     tribe_id: 2
 )
 
 Card.create(
-    name: "Card 1"
-    image_url: nil
-    tier_id: 3
+    name: "Card 1",
+    image_url: nil,
+    tier_id: 3,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 1"
-    image_url: nil
-    tier_id: 1
+    name: "Card 1",
+    image_url: nil,
+    tier_id: 1,
     tribe_id: 2
 )
 
 Card.create(
-    name: "Card 1"
-    image_url: nil
-    tier_id: 1
+    name: "Card 1",
+    image_url: nil,
+    tier_id: 1,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 1"
-    image_url: nil 
-    tier_id: 2
+    name: "Card 1",
+    image_url: nil,
+    tier_id: 2,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 1"
-    image_url: nil 
-    tier_id: 2
+    name: "Card 1",
+    image_url: nil,
+    tier_id: 2,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 1"
-    image_url: nil 
-    tier_id: 3
+    name: "Card 1",
+    image_url: nil, 
+    tier_id: 3,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 1"
-    image_url: nil 
-    tier_id: 3
+    name: "Card 1",
+    image_url: nil, 
+    tier_id: 3,
     tribe_id: 2
 )
 puts "✅ Done seeding Cards!"
