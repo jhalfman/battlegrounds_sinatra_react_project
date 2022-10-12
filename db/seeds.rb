@@ -23,11 +23,11 @@ Tribe.create(
 )
 
 Tribe.create(
-    name: "Tribe 1"
+    name: "Tribe 2"
 )
 
 Tribe.create(
-    name: "Tribe 1"
+    name: "Tribe 3"
 )
 
 
@@ -50,49 +50,49 @@ Card.create(
 )
 
 Card.create(
-    name: "Card 1",
+    name: "Card 3",
     image_url: nil,
     tier_id: 3,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 1",
+    name: "Card 4",
     image_url: nil,
     tier_id: 1,
     tribe_id: 2
 )
 
 Card.create(
-    name: "Card 1",
+    name: "Card 5",
     image_url: nil,
     tier_id: 1,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 1",
+    name: "Card 6",
     image_url: nil,
     tier_id: 2,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 1",
+    name: "Card 7",
     image_url: nil,
     tier_id: 2,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 1",
+    name: "Card 8",
     image_url: nil, 
     tier_id: 3,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 1",
+    name: "Card 9",
     image_url: nil, 
     tier_id: 3,
     tribe_id: 2

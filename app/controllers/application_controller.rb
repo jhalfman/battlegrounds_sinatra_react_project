@@ -6,4 +6,14 @@ class ApplicationController < Sinatra::Base
     { message: "Hearthstone Battlegrounds Build Lister!" }.to_json
   end
 
+  get "/tribes" do
+    Tribe.all.to_json
+  end
+
+  get "/tiers" do
+  end
+
+  get "/cards" do
+  end
+
 end
