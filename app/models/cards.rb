@@ -1,4 +1,4 @@
-class Card < Sinatra::Base
-    belongs_to :tiers
-    belongs_to :tribes
+class Card < ActiveRecord::Base
+    belongs_to :tier
+    belongs_to :tribe
 end
