@@ -3,7 +3,7 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/" do
-    { message: "Hearthstone Battlegrounds Build Lister" }.to_json
+    { message: "Hearthstone Battlegrounds Build Lister!" }.to_json
   end
 
 end
