@@ -14,87 +14,485 @@ Tier.create(
     tier: 3
 )
 
+Tier.create(
+    tier: 4
+)
+
+Tier.create(
+    tier: 5
+)
+
+Tier.create(
+    tier: 6
+)
+
 puts "✅ Done seeding Tiers!"
 
 puts "🌱 Seeding tribes..."
 
 Tribe.create(
-    name: "Tribe 1"
+    name: "Beast"
 )
 
 Tribe.create(
-    name: "Tribe 2"
+    name: "Murloc"
 )
 
 Tribe.create(
-    name: "Tribe 3"
+    name: "Mech"
 )
 
+Tribe.create(
+    name: "Demon"
+)
+
+Tribe.create(
+    name: "Pirate"
+)
+
+Tribe.create(
+    name: "Dragon"
+)
+
+Tribe.create(
+    name: "Elemental"
+)
+
+Tribe.create(
+    name: "Quilboar"
+)
+
+Tribe.create(
+    name: "Naga"
+)
+
+Tribe.create(
+    name: "Neutral"
+)
 
 puts "✅ Done seeding Tribes!"
 
 puts "🌱 Seeding cards..."
 
 Card.create(
-    name: "Card 1",
+    name: "Alleycat",
     image_url: nil,
     tier_id: 1,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 2",
-    image_url: nil,
-    tier_id: 2,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "Card 3",
-    image_url: nil,
-    tier_id: 3,
-    tribe_id: 3
-)
-
-Card.create(
-    name: "Card 4",
+    name: "Bubblette",
     image_url: nil,
     tier_id: 1,
     tribe_id: 2
 )
 
 Card.create(
-    name: "Card 5",
+    name: "Deck Swabbie",
     image_url: nil,
     tier_id: 1,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 6",
+    name: "Icky Imp",
     image_url: nil,
-    tier_id: 2,
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Imprisoner",
+    image_url: nil,
+    tier_id: 1,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Impulsive Trickster",
+    image_url: nil,
+    tier_id: 1,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 7",
+    name: "Micro Mummy",
     image_url: nil,
-    tier_id: 2,
+    tier_id: 1,
     tribe_id: 3
 )
 
 Card.create(
-    name: "Card 8",
+    name: "Mini-Myrmidon",
     image_url: nil, 
-    tier_id: 3,
+    tier_id: 1,
     tribe_id: 1
 )
 
 Card.create(
-    name: "Card 9",
+    name: "Picky Eater",
     image_url: nil, 
-    tier_id: 3,
+    tier_id: 1,
     tribe_id: 2
 )
+
+Card.create(
+    name: "Pupbot",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Razorfen Geomancer",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Red Whelp",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Refreshing Anomaly",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Rockpool Hunter",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Scallywag",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Scavenging Hyena",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Sellemental",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Shell Collector",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Silverback Patriarch",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Sun-Bacon Relaxer",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Swampstriker",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Tavern Tipper",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Wrath Weaver",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 1,
+    tribe_id: 2
+)
+
+
 puts "✅ Done seeding Cards!"
