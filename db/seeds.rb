@@ -937,20 +937,202 @@ Card.create(
 ##Tier 5
 
 Card.create(
-    name: "",
+    name: "Agamaggan, the Great Boar",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Aggem Thorncurse",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Annihilan Battlemaster",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Baby Krush",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Baron Rivendare",
     image_url: nil, 
     tier_id: 5,
     tribe_id: 10
 )
 
 Card.create(
-    name: "",
+    name: "Brann Bronzebeard",
     image_url: nil, 
     tier_id: 5,
     tribe_id: 10
 )
 
+Card.create(
+    name: "Bristleback Knight",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 8
+)
 
+Card.create(
+    name: "Cap'n Hoggarr",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Corrupted Myrmidon",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Critter Wrangler",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Glowscale",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Holy Mecherel",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Insatiable Ur'zul",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Kangor's Apprentice",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "King Bagurgle",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Leeroy the Reckless",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Lightfang Enforcer",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Lil' Rag",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Mama Bear",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Master of Realities",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Murozond",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Nomi, Kitchen Nightmare",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Palescale Crocolisk",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Razorgore, the Untamed",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Tavern Tempest",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Tony Two-Tusk",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Tortollan Blue Shell",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Voidlord",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 4
+)
+
+### Tier 6
 
 
 puts "✅ Done seeding Cards!"
