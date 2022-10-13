@@ -461,236 +461,240 @@ Card.create(
     tribe_id: 10
 )
 
+### Tier 3
+
 Card.create(
-    name: "",
+    name: "Amber Guardian",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Arm of the Empire",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Bannerboar",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Bird Buddy",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Bristleback Brute",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Bronze Warden",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Coldlight Seer",
     image_url: nil, 
     tier_id: 3,
     tribe_id: 2
 )
 
 Card.create(
-    name: "",
+    name: "Crackling Cyclone",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Deflect-o-Bot",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Felfin Navigator",
     image_url: nil, 
     tier_id: 3,
     tribe_id: 2
 )
 
 Card.create(
-    name: "",
+    name: "First Mate Pip",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Gemsplitter",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Houndmaster",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Iron Sensei",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Kathra'natir",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Khadgar",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Legion Overseer",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Monstrous Macaw",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Nightmare Amalgam",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 11
+)
+
+Card.create(
+    name: "Pashmar the Vengeful",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Rat Pack",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Replicating Menace",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Salty Looter",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Shoal Commander",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Smogger",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Soul Juggler",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Southsea Strongarm",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Stasis Elemental",
+    image_url: nil, 
+    tier_id: 3,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Swolefin",
     image_url: nil, 
     tier_id: 3,
     tribe_id: 2
 )
 
 Card.create(
-    name: "",
+    name: "Tarecgosa",
     image_url: nil, 
     tier_id: 3,
-    tribe_id: 2
+    tribe_id: 6
 )
 
 Card.create(
-    name: "",
+    name: "Thorncaller",
     image_url: nil, 
     tier_id: 3,
-    tribe_id: 2
+    tribe_id: 8
 )
 
 Card.create(
-    name: "",
+    name: "Twilight Emissary",
     image_url: nil, 
     tier_id: 3,
-    tribe_id: 2
+    tribe_id: 6
 )
 
 Card.create(
-    name: "",
+    name: "Warden of Old",
     image_url: nil, 
     tier_id: 3,
-    tribe_id: 2
+    tribe_id: 9
 )
 
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
-
-Card.create(
-    name: "",
-    image_url: nil, 
-    tier_id: 3,
-    tribe_id: 2
-)
+### Tier 4
 
 Card.create(
     name: "",
