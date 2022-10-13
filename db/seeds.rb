@@ -1134,5 +1134,160 @@ Card.create(
 
 ### Tier 6
 
+Card.create(
+    name: "Charlga",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Darkgaze Elder",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Dread Admiral Eliza",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Famished Felbat",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Foe Reaper 4000",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Gentle Djinni",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Ghastcoiler",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Goldrinn, the Great Wolf",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Grease Bot",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Imp Mama",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Kalecgos, Arcane Aspect",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Lieutenant Garr",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Mantid Queen",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Nadina the Red",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Nosy Looter",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Omega Buster",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Orgozoa, the Tender",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Tea Master Theotar",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Tidemistress Athissa",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Uther the Lightbringer",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Young Murk-Eye",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Zapp Slywick",
+    image_url: nil, 
+    tier_id: 6,
+    tribe_id: 10
+)
+
+
 
 puts "✅ Done seeding Cards!"
