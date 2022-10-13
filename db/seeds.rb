@@ -697,10 +697,257 @@ Card.create(
 ### Tier 4
 
 Card.create(
-    name: "",
+    name: "Annoy-o-Module",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Atramedes",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Bigfernal",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Bonker",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Cave Hydra",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Dazzling Lightspawn",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Drakonid Enforcer",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Dynamic Duo",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Eelbound Archer",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Eventide Brute",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Goldgrubber",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Groundshaker",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Impatient Doomsayer",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Majordomo Executus",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Mechano-Tank",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Menagerie Jug",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Necrolyte",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 8
+)
+
+Card.create(
+    name: "Peggy Brittlebone",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Primalfin Lookout",
     image_url: nil, 
     tier_id: 4,
     tribe_id: 2
+)
+
+Card.create(
+    name: "Prized Promo-Drake",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 6
+)
+
+Card.create(
+    name: "Reanimating Rattler",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Recycling Wraith",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 7
+)
+
+Card.create(
+    name: "Reef Explorer",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Rendle the Mistermind",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Ring Matron",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 4
+)
+
+Card.create(
+    name: "Ripsnarl Captain",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 5
+)
+
+Card.create(
+    name: "Savannah Highmane",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 1
+)
+
+Card.create(
+    name: "Strongshell Scavenger",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Toxfin",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 2
+)
+
+Card.create(
+    name: "Treasure-Seeker Elise",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Tunnel Blaster",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "Wargear",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 3
+)
+
+Card.create(
+    name: "Waverider",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 9
+)
+
+Card.create(
+    name: "Wildfire Elemental",
+    image_url: nil, 
+    tier_id: 4,
+    tribe_id: 7
+)
+
+##Tier 5
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
+)
+
+Card.create(
+    name: "",
+    image_url: nil, 
+    tier_id: 5,
+    tribe_id: 10
 )
 
 
