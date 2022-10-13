@@ -83,7 +83,7 @@ puts "🌱 Seeding cards..."
 
 Card.create(
     name: "Alleycat",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/66/BG_CFM_315_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220903094454",
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/66/BG_CFM_315_Battlegrounds.png",
     tier_id: 1,
     tribe_id: 1
 )
@@ -97,14 +97,14 @@ Card.create(
 
 Card.create(
     name: "Deck Swabbie",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f5/BGS_055_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20211125204255",
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f5/BGS_055_Battlegrounds.png",
     tier_id: 1,
     tribe_id: 5
 )
 
 Card.create(
     name: "Evolving Chromawing",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/65/BG21_027_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220827111348",
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/65/BG21_027_Battlegrounds.png",
     tier_id: 1,
     tribe_id: 6
 )
@@ -118,7 +118,7 @@ Card.create(
 
 Card.create(
     name: "Imprisoner",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1b/BGS_014_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220903094715",
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1b/BGS_014_Battlegrounds.png",
     tier_id: 1,
     tribe_id: 4
 )
@@ -132,84 +132,84 @@ Card.create(
 
 Card.create(
     name: "Micro Mummy",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6e/BG_ULD_217_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220903094551",
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6e/BG_ULD_217_Battlegrounds.png",
     tier_id: 1,
     tribe_id: 3
 )
 
 Card.create(
     name: "Mini-Myrmidon",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e0/BG23_000_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220710174716", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e0/BG23_000_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 9
 )
 
 Card.create(
     name: "Picky Eater",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c5/BG24_009_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220903094652", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c5/BG24_009_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 4
 )
 
 Card.create(
     name: "Pupbot",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/39/BG21_022_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20211125204448", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/39/BG21_022_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 3
 )
 
 Card.create(
     name: "Razorfen Geomancer",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d1/BG20_100_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20211125204614", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d1/BG20_100_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 8
 )
 
 Card.create(
     name: "Red Whelp",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/4a/BGS_019_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220710175000", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/4a/BGS_019_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 6
 )
 
 Card.create(
     name: "Refreshing Anomaly",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/5d/BGS_116_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20211125204151", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/5d/BGS_116_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 7
 )
 
 Card.create(
     name: "Rockpool Hunter",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/60/BG_UNG_073_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220903094553", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/60/BG_UNG_073_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 2
 )
 
 Card.create(
     name: "Scallywag",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/38/BGS_061_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20211125204247", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/38/BGS_061_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 5
 )
 
 Card.create(
     name: "Scavenging Hyena",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1d/BG_EX1_531_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220903094516", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1d/BG_EX1_531_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 1
 )
 
 Card.create(
     name: "Sellemental",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c4/BGS_115_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20211125204154", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c4/BGS_115_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 7
 )
 
 Card.create(
     name: "Shell Collector",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d2/BG23_002_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220710174736", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d2/BG23_002_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 9
 )
@@ -223,28 +223,28 @@ Card.create(
 
 Card.create(
     name: "Sun-Bacon Relaxer",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/26/BG20_301_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20211125204542", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/26/BG20_301_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 8
 )
 
 Card.create(
     name: "Swampstriker",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/33/BG22_401_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220710174610", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/33/BG22_401_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 2
 )
 
 Card.create(
     name: "Tavern Tipper",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6f/BG23_352_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220710180907", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6f/BG23_352_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 10
 )
 
 Card.create(
     name: "Wrath Weaver",
-    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/16/BGS_004_Battlegrounds.png/revision/latest/scale-to-width-down/235?cb=20220710174920", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/16/BGS_004_Battlegrounds.png", 
     tier_id: 1,
     tribe_id: 10
 )
@@ -253,210 +253,210 @@ Card.create(
 
 Card.create(
     name: "Deep-Sea Angler",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/b/be/BG23_004_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 9
 )
 
 Card.create(
     name: "Freedealing Gambler",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d3/BGS_049_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 5
 )
 
 Card.create(
     name: "Glyph Guardian",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1b/BGS_045_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 6
 )
 
 Card.create(
     name: "Harvest Golem",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e2/BG_EX1_556_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 3
 )
 
 Card.create(
     name: "Impulsive Trickster",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/36/BG21_006_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 4
 )
 
 Card.create(
     name: "Kaboom Bot",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/26/BG_BOT_606_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 3
 )
 
 Card.create(
     name: "Lava Lurker",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/08/BG23_009_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 9
 )
 
 Card.create(
     name: "Leapfrogger",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/12/BG21_000_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 1
 )
 
 Card.create(
     name: "Metaltooth Leaper",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/32/BG_GVG_048_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 3
 )
 
 Card.create(
     name: "Mind Muck",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e4/BG23_357_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 4
 )
 
 Card.create(
     name: "Molten Rock",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d7/BGS_127_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 7
 )
 
 Card.create(
     name: "Murloc Warleader",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/5f/BG_EX1_507_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 2
 )
 
 Card.create(
     name: "Nether Drake",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/22/BG24_003_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 6
 )
 
 Card.create(
     name: "Party Elemental",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/fe/BGS_120_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 7
 )
 
 Card.create(
     name: "Piggyback Imp",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/9/97/BG_AV_309_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 4
 )
 
 Card.create(
     name: "Prophet of the Boar",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/04/BG20_203_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 10
 )
 
 Card.create(
     name: "Rabid Saurolisk",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/a/ac/BGS_075_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 1
 )
 
 Card.create(
     name: "Roadboar",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/fa/BG20_101_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 8
 )
 
 Card.create(
     name: "Saltscale Honcho",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/29/BG21_008_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 2
 )
 
 Card.create(
     name: "Selfless Hero",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/47/BG_OG_221_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 10
 )
 
 Card.create(
     name: "Sewer Rat",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/86/BG19_010_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 1
 )
 
 Card.create(
     name: "Snail Cavalry",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/a/a2/BG23_001_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 9
 )
 
 Card.create(
     name: "Southsea Captain",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/4b/BG_NEW1_027_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 5
 )
 
 Card.create(
     name: "Sparring Partner",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/b/bc/BG_AT_069_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 10
 )
 
 Card.create(
     name: "Spawn of N'Zoth",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/8e/BG_OG_256_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 10
 )
 
 Card.create(
     name: "Tad",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/cf/BG22_202_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 2
 )
 
 Card.create(
     name: "Tough Tusk",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/9/93/BG20_102_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 8
 )
 
 Card.create(
     name: "Whelp Smuggler",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f7/BG21_013_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 10
 )
 
 Card.create(
     name: "Yo-Ho-Ogre",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c9/BGS_060_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 5
 )
 
 Card.create(
     name: "Yrel",
-    image_url: "", 
+    image_url: "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f5/BG23_350_Battlegrounds.png", 
     tier_id: 2,
     tribe_id: 10
 )
