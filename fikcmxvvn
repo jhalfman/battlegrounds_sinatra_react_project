@@ -1,0 +1,154 @@
+=> [[32m#<Card:0x000055ad03b6c5c8[0m
+  id: [1;34m146[0m,
+  name: [31m[1;31m"[0m[31mCharlga[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6b/BG20_303_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m8[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7adb0[0m
+  id: [1;34m147[0m,
+  name: [31m[1;31m"[0m[31mDarkgaze Elder[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/46/BG23_018_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m9[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7acc0[0m
+  id: [1;34m148[0m,
+  name: [31m[1;31m"[0m[31mDread Admiral Eliza[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f5/BGS_047_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m5[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7ab58[0m
+  id: [1;34m149[0m,
+  name: [31m[1;31m"[0m[31mFamished Felbat[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/b/b1/BG21_005_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m4[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a9c8[0m
+  id: [1;34m150[0m,
+  name: [31m[1;31m"[0m[31mFoe Reaper 4000[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/53/BG_GVG_113_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m3[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a630[0m
+  id: [1;34m151[0m,
+  name: [31m[1;31m"[0m[31mGentle Djinni[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/61/BGS_121_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m7[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a4f0[0m
+  id: [1;34m152[0m,
+  name: [31m[1;31m"[0m[31mGhastcoiler[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/69/BGS_008_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a3d8[0m
+  id: [1;34m153[0m,
+  name: [31m[1;31m"[0m[31mGoldrinn, the Great Wolf[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/9/94/BGS_018_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a2e8[0m
+  id: [1;34m154[0m,
+  name: [31m[1;31m"[0m[31mGrease Bot[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/9/98/BG21_024_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m3[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a220[0m
+  id: [1;34m155[0m,
+  name: [31m[1;31m"[0m[31mImp Mama[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/46/BGS_044_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m4[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a108[0m
+  id: [1;34m156[0m,
+  name: [31m[1;31m"[0m[31mKalecgos, Arcane Aspect[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/59/BGS_041_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m6[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c7a018[0m
+  id: [1;34m157[0m,
+  name: [31m[1;31m"[0m[31mLieutenant Garr[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/88/BGS_124_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m7[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79ed8[0m
+  id: [1;34m158[0m,
+  name: [31m[1;31m"[0m[31mMantid Queen[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f7/BG22_402_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m10[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79e10[0m
+  id: [1;34m159[0m,
+  name: [31m[1;31m"[0m[31mNadina the Red[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e2/BGS_040_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m10[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79d48[0m
+  id: [1;34m160[0m,
+  name: [31m[1;31m"[0m[31mNosy Looter[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/b/bb/BG21_019_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m5[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79c80[0m
+  id: [1;34m161[0m,
+  name: [31m[1;31m"[0m[31mOmega Buster[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/ee/BG21_025_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m3[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79bb8[0m
+  id: [1;34m162[0m,
+  name: [31m[1;31m"[0m[31mOrgozoa, the Tender[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c8/BG23_015_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m10[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79ac8[0m
+  id: [1;34m163[0m,
+  name: [31m[1;31m"[0m[31mTea Master Theotar[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/7/7a/BG24_020_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m10[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c795c8[0m
+  id: [1;34m164[0m,
+  name: [31m[1;31m"[0m[31mTidemistress Athissa[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/a/a9/BG23_013_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m9[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79500[0m
+  id: [1;34m165[0m,
+  name: [31m[1;31m"[0m[31mUther the Lightbringer[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f6/BG23_190_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m10[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c79370[0m
+  id: [1;34m166[0m,
+  name: [31m[1;31m"[0m[31mYoung Murk-Eye[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f6/BG22_403_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m2[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m,
+ [32m#<Card:0x000055ad04c791b8[0m
+  id: [1;34m167[0m,
+  name: [31m[1;31m"[0m[31mZapp Slywick[1;31m"[0m[31m[0m,
+  image_url:
+   [31m[1;31m"[0m[31mhttps://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c5/BGS_022_Battlegrounds.png[1;31m"[0m[31m[0m,
+  tribe_id: [31m[1;31m"[0m[31m10[1;31m"[0m[31m[0m,
+  tier_id: [1;34m6[0m[32m>[0m]
