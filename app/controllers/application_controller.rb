@@ -34,5 +34,50 @@ class ApplicationController < Sinatra::Base
     Build.all.to_json
   end
 
+  post "/builds" do
+    #Expecting {
+      #name: "",
+      #card1: ,
+      #card2: ,
+      #card3: ,
+      #card4: ,
+      #card5: ,
+      #card6: ,
+      #card7:
+    #}
+    build = Build.new(
+      name: params[:name]
+    )
+    build_card = BuildCard.new(
+      card_id: params[:card1],
+      build_id: build.id
+    )
+    build_card = BuildCard.new(
+      card_id: params[:card2],
+      build_id: build.id
+    )
+    build_card = BuildCard.new(
+      card_id: params[:card3],
+      build_id: build.id
+    )
+    build_card = BuildCard.new(
+      card_id: params[:card4],
+      build_id: build.id
+    )
+    build_card = BuildCard.new(
+      card_id: params[:card5],
+      build_id: build.id
+    )
+    build_card = BuildCard.new(
+      card_id: params[:card6],
+      build_id: build.id
+    )
+    build_card = BuildCard.new(
+      card_id: params[:card7],
+      build_id: build.id
+    )
+    build.to_json
+  end
+
 end
 
