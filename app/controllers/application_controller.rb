@@ -34,6 +34,10 @@ class ApplicationController < Sinatra::Base
     Build.all.to_json
   end
 
+  get "/builds/:id" do
+    BuildCard.where(build_id: params[:id])
+  end
+
   post "/builds" do
     #Expecting {
       #name: "",
