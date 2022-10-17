@@ -35,7 +35,11 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/builds/:id" do
-    BuildCard.where(build_id: params[:id])
+    build_list = BuildCard.where(build_id: params[:id])
+    card_list = build_list.map do |card|
+      Card.find(card.card_id)
+    end
+    card_list.to_json
   end
 
   post "/builds" do
@@ -49,34 +53,34 @@ class ApplicationController < Sinatra::Base
       #card6: ,
       #card7:
     #}
-    build = Build.new(
+    build = Build.create(
       name: params[:name]
     )
-    build_card = BuildCard.new(
+    build_card = BuildCard.create(
       card_id: params[:card1],
       build_id: build.id
     )
-    build_card = BuildCard.new(
+    build_card = BuildCard.create(
       card_id: params[:card2],
       build_id: build.id
     )
-    build_card = BuildCard.new(
+    build_card = BuildCard.create(
       card_id: params[:card3],
       build_id: build.id
     )
-    build_card = BuildCard.new(
+    build_card = BuildCard.create(
       card_id: params[:card4],
       build_id: build.id
     )
-    build_card = BuildCard.new(
+    build_card = BuildCard.create(
       card_id: params[:card5],
       build_id: build.id
     )
-    build_card = BuildCard.new(
+    build_card = BuildCard.create(
       card_id: params[:card6],
       build_id: build.id
     )
-    build_card = BuildCard.new(
+    build_card = BuildCard.create(
       card_id: params[:card7],
       build_id: build.id
     )
