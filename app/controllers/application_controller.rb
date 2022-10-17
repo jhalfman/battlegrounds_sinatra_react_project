@@ -30,5 +30,9 @@ class ApplicationController < Sinatra::Base
     end
   end
 
+  get "/builds" do
+    Build.all.to_json
+  end
+
 end
 

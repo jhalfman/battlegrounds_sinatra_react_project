@@ -1289,5 +1289,125 @@ Card.create(
 )
 
 
-
 puts "✅ Done seeding Cards!"
+
+
+puts "✅ Seeding Builds!"
+
+Build.create(
+    name: "Random Build 1"
+)
+
+Build.create(
+    name: "Random Build 2"
+)
+
+Build.create(
+    name: "Random Build 3"
+)
+
+
+BuildCard.create(
+    card_id: 2,
+    build_id: 1
+)
+
+BuildCard.create(
+    card_id: 20,
+    build_id: 1
+)
+
+BuildCard.create(
+    card_id: 40,
+    build_id: 1
+)
+
+BuildCard.create(
+    card_id: 60,
+    build_id: 1
+)
+
+BuildCard.create(
+    card_id: 80,
+    build_id: 1
+)
+
+BuildCard.create(
+    card_id: 100,
+    build_id: 1
+)
+
+BuildCard.create(
+    card_id: 120,
+    build_id: 1
+)
+
+BuildCard.create(
+    card_id: 5,
+    build_id: 2
+)
+
+BuildCard.create(
+    card_id: 15,
+    build_id: 2
+)
+
+BuildCard.create(
+    card_id: 25,
+    build_id: 2
+)
+
+BuildCard.create(
+    card_id: 35,
+    build_id: 2
+)
+
+BuildCard.create(
+    card_id: 45,
+    build_id: 2
+)
+
+BuildCard.create(
+    card_id: 55,
+    build_id: 2
+)
+
+BuildCard.create(
+    card_id: 65,
+    build_id: 2
+)
+
+BuildCard.create(
+    card_id: 13,
+    build_id: 3
+)
+
+BuildCard.create(
+    card_id: 23,
+    build_id: 3
+)
+
+BuildCard.create(
+    card_id: 33,
+    build_id: 3
+)
+
+BuildCard.create(
+    card_id: 43,
+    build_id: 3
+)
+
+BuildCard.create(
+    card_id: 53,
+    build_id: 3
+)
+
+BuildCard.create(
+    card_id: 63,
+    build_id: 3
+)
+
+BuildCard.create(
+    card_id: 73,
+    build_id: 3
+)

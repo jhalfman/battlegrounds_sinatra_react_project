@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_12_203322) do
+ActiveRecord::Schema.define(version: 2022_10_17_144448) do
+
+  create_table "build_cards", force: :cascade do |t|
+    t.integer "card_id"
+    t.integer "build_id"
+  end
+
+  create_table "builds", force: :cascade do |t|
+    t.string "name"
+  end
 
   create_table "cards", force: :cascade do |t|
     t.string "name"
