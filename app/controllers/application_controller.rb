@@ -29,6 +29,10 @@ class ApplicationController < Sinatra::Base
       Card.where(tier_id: stars, tribe_id: tribe).to_json
     end
   end
+
+  get "/cards/:id" do
+    Card.find(params[:id]).to_json
+  end
   
 
   get "/builds" do
@@ -46,43 +50,39 @@ class ApplicationController < Sinatra::Base
   post "/builds" do
     #Expecting {
       #name: "",
-      #card1: ,
-      #card2: ,
-      #card3: ,
-      #card4: ,
-      #card5: ,
-      #card6: ,
-      #card7:
+      #cards: [
+        #{cardName: "", cardId: null, cardImage: null} x7
+      #]
     #}
     build = Build.create(
       name: params[:name]
     )
     build_card = BuildCard.create(
-      card_id: params[:card1],
+      card_id: params[:cards][0][:cardId],
       build_id: build.id
     )
     build_card = BuildCard.create(
-      card_id: params[:card2],
+      card_id: params[:cards][1][:cardId],
       build_id: build.id
     )
     build_card = BuildCard.create(
-      card_id: params[:card3],
+      card_id: params[:cards][2][:cardId],
       build_id: build.id
     )
     build_card = BuildCard.create(
-      card_id: params[:card4],
+      card_id: params[:cards][3][:cardId],
       build_id: build.id
     )
     build_card = BuildCard.create(
-      card_id: params[:card5],
+      card_id: params[:cards][4][:cardId],
       build_id: build.id
     )
     build_card = BuildCard.create(
-      card_id: params[:card6],
+      card_id: params[:cards][5][:cardId],
       build_id: build.id
     )
     build_card = BuildCard.create(
-      card_id: params[:card7],
+      card_id: params[:cards][6][:cardId],
       build_id: build.id
     )
     build.to_json
