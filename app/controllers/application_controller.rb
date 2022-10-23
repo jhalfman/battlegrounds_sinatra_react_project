@@ -88,5 +88,15 @@ class ApplicationController < Sinatra::Base
     build.to_json
   end
 
+  delete "/builds/:id" do
+    build = Build.find(params[:id])
+    build.build_cards.each do |item|
+      item.destroy
+    end
+    build.destroy
+    build.to_json
+    
+  end
+
 end
 
