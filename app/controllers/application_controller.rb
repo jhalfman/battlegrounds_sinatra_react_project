@@ -47,6 +47,15 @@ class ApplicationController < Sinatra::Base
     card_list.to_json
   end
 
+  patch "/builds/:id" do
+    updatedBuildCard = BuildCard.where("card_id = ? AND build_id = ?", params[:cardId], params[:id])
+    updatedBuildCard.first.update(
+      card_id: params[:replacementId]
+    )
+    
+    updatedBuildCard.first.card.to_json
+  end
+
   post "/builds" do
     #Expecting {
       #name: "",
@@ -95,7 +104,6 @@ class ApplicationController < Sinatra::Base
     end
     build.destroy
     build.to_json
-    
   end
 
 end
