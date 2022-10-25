@@ -7,7 +7,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/cards" do
-    Card.all.to_json(include: [:tier, :tribe])
+    Card.all.to_json(include: [:tier, :tribe, :builds])
   end  
 
   get "/builds" do
