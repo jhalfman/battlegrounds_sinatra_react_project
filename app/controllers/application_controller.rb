@@ -21,6 +21,16 @@ class ApplicationController < Sinatra::Base
     card.to_json(include: [:tier, :tribe, :builds])
   end
 
+  post "/cards" do
+    card = Card.create(
+    name: params[:name],
+    image_url: params[:url], 
+    tier_id: params[:tier],
+    tribe_id: params[:tribe]
+    )
+    card.to_json(include: [:tier, :tribe, :builds])
+  end
+
   get "/builds" do
     Build.all.to_json(include: {cards: {include: :builds}})
   end
