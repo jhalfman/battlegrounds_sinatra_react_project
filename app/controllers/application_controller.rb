@@ -8,7 +8,18 @@ class ApplicationController < Sinatra::Base
 
   get "/cards" do
     Card.all.to_json(include: [:tier, :tribe, :builds])
-  end  
+  end
+  
+  patch "/cards/:id" do
+    card = Card.find(params[:id])    
+    card.update(
+      name: params[:cardName],
+      tribe_id: params[:tribe],
+      tier_id: params[:tier],
+      image_url: params[:url]
+    )
+    card.to_json(include: [:tier, :tribe, :builds])
+  end
 
   get "/builds" do
     Build.all.to_json(include: {cards: {include: :builds}})
