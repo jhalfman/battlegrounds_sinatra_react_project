@@ -31,6 +31,15 @@ class ApplicationController < Sinatra::Base
     card.to_json(include: [:tier, :tribe, :builds])
   end
 
+  delete "/cards/:id" do
+    card = Card.find(params[:id])
+    card.build_cards.each do |i|
+      i.destroy
+    end
+    card.destroy
+    card.to_json
+  end
+
   get "/builds" do
     Build.all.to_json(include: {cards: {include: :builds}})
   end
@@ -55,7 +64,7 @@ class ApplicationController < Sinatra::Base
         build_id: build.id
       )
     end
-    build.to_json(include: {cards: {include: :builds}})
+    build.to_json(include: {cards: {include: [:tier, :tribe, :builds]}})
   end
 
   delete "/builds/:id" do
