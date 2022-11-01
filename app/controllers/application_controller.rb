@@ -45,13 +45,12 @@ class ApplicationController < Sinatra::Base
   end
 
   patch "/builds/:id" do
-    #alternatively, Build.find(params[:id]).build_cards.where(card_id: params[:cardId])
     updatedBuildCard = BuildCard.where("card_id = ? AND build_id = ?", params[:cardId], params[:id])
     updatedBuildCard.first.update(
       card_id: params[:replacementId]
     )
-    #updatedBuildCard.first.card.to_json
-    Build.all.to_json(include: {cards: {include: :builds}})
+    update = {builds: Build.all.as_json(include: {cards: {include: :builds}}), cards: Card.all.as_json(include: [:tier, :tribe, :builds])}
+    update.to_json
   end
 
   post "/builds" do
@@ -64,7 +63,8 @@ class ApplicationController < Sinatra::Base
         build_id: build.id
       )
     end
-    build.to_json(include: {cards: {include: [:tier, :tribe, :builds]}})
+    update = {builds: Build.all.as_json(include: {cards: {include: :builds}}), cards: Card.all.as_json(include: [:tier, :tribe, :builds])}
+    update.to_json
   end
 
   delete "/builds/:id" do
@@ -73,7 +73,8 @@ class ApplicationController < Sinatra::Base
       item.destroy
     end
     build.destroy
-    Build.all.to_json(include: {cards: {include: :builds}})
+    update = {builds: Build.all.as_json(include: {cards: {include: :builds}}), cards: Card.all.as_json(include: [:tier, :tribe, :builds])}
+    update.to_json
   end
 end
 
